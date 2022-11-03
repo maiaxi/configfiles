@@ -187,9 +187,12 @@ exec setxkbmap -option ctrl:swapcaps # swap CapsLock with Ctrl
 # setting polybar
 exec --no-startup-id polybar internal
 #seting wallaper
-exec_always feh --bg-fill ~/Imagens/wallpapers/wallpaper.jpg
+exec_always feh --bg-fill ~/Pictures/wallpapers/wallpaper.jpg
 #seting picom
 exec picom --experimental-backends -b -f
 #seting bluebars off
 default_border none
-default_floating_border none   
+#seting bluetooth
+exec blueman-applet
+#seting wifi
+exec nm-applet
