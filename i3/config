@@ -196,3 +196,5 @@ default_border none
 exec blueman-applet
 #seting wifi
 exec nm-applet
+#sets bind for alacritty color change
+bindsym $mod+c exec ~/.config/alacritty/colorchanger.sh
