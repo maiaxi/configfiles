@@ -183,7 +183,7 @@ gaps inner 11
 
 bindsym $mod+r mode "resize"
 # custom keyboard
-exec setxkbmap -option ctrl:swapcaps # swap CapsLock with Ctrl
+#exec setxkbmap -option ctrl:swapcaps # swap CapsLock with Ctrl
 # setting polybar
 exec --no-startup-id polybar internal
 #seting wallaper
@@ -198,3 +198,5 @@ exec blueman-applet
 exec nm-applet
 #sets bind for alacritty color change
 bindsym $mod+c exec ~/.config/alacritty/colorchanger.sh
+#sets bind for printscreen
+bindsym Print exec flameshot gui
